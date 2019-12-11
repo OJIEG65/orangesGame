@@ -1,0 +1,14 @@
+.orange-producer-container {
+  width: 100%;
+  height: 10px;
+  background-color: green;
+  .progress-line {
+    height: 100%;
+    width: 0;
+    background-color: #ff8d00;
+    transition-timing-function: linear !important;
+    &.full {
+      width: 100%;
+    }
+  }
+}

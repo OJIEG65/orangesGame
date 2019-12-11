@@ -1,0 +1,21 @@
+.farms-container {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100vw;
+  justify-content: start;
+  .farm-container {
+    margin: 15px;
+    height: 130px;
+    position: relative;
+    span {
+      position: absolute;
+      bottom: 0;
+      left: 10px;
+      color: #333333;
+      font-size: 13px;
+    }
+    img {
+      height: 100%;
+    }
+  }
+}
